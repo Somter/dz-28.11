@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // 1 
+        // let min = parseInt(prompt("Минимальное число"));
+        // let max = parseInt(prompt("Максимальное число"));
+        // let sum = 0;
+
+        // for (let i = min; i <= max; i++) {
+        //     sum += i;
+        // }
+
+        // document.write(sum);
+
+        //2 
+
+        // let number1 = parseInt(prompt("Первое число"));
+        // let number2 = parseInt(prompt("Второе число"));
+
+
+        // let a = number1;
+        // let b = number2;
+
+        // while (b) {
+        //     let temp = b;
+        //     b = a % b;
+        //     a = temp;
+        // }
+
+        // let gcd = a;
+
+        // document.write("Наибольший общий делитель: " + gcd);
+
+        //3
+
+        // let number = parseInt(prompt("Введите число"));
+        // for(let i = 0; i < number; i++){
+        //     if(number % i == 0){
+        //         document.write(i + ', '); 
+        //     }
+        // }
+
+        //4
+        // let number = parseInt(prompt("Введите число"));
+        // let digitCount = 0;
+
+        // while (number !== 0) {
+        //     number = (number - (number % 10)) / 10;
+        //     digitCount++;
+        // }
+
+        // document.write("Количество цифр в числе: " + digitCount);
+
+
+        //5
+
+        // let positive = 0;
+        // let negative = 0;
+        // let zeros = 0;
+        // let even = 0;
+        // let odd = 0; 
+
+        // for (let i = 0; i < 10; i++) {
+        //     let number = parseInt(prompt("Введите число"));
+
+        //     if (number > 0) {
+        //         positive++;
+        //     }
+        //     if (number < 0) {
+        //         negative++;
+        //     }
+        //     if (number == 0) {
+        //         zeros++;
+        //     }
+        //     if(number % 2 == 0){
+        //         even++;
+        //     }
+        //     else {
+        //         odd++;  
+        //     }
+        // }
+
+        // document.write("Позитивные числа: " + positive + "<br>");
+        // document.write("Отрицательные числа: " + negative + "<br>");
+        // document.write("Нули: " + zeros + "<br>");
+        // document.write("Четные числа: " + even + "<br>");
+        // document.write("Нечетные числа: " + odd + "<br>");
+
+        //6
+        // let rezult;
+
+        // do {
+        //     let number1 = parseInt(prompt("Введите первое число"));
+        //     let number2 = parseInt(prompt("Введите второе число"));
+        //     let sign = prompt("Введите знак операции (+, -, *, /)");
+
+        //     switch (sign) {
+        //         case '*':
+        //             rezult = number1 * number2;
+        //             break;
+        //         case '/':
+        //             rezult = number1 / number2;
+        //             break;
+        //         case '+':
+        //             rezult = number1 + number2;
+        //             break;
+        //         case '-':
+        //             rezult = number1 - number2;
+        //             break;
+        //         default:
+        //             alert("Неподдерживаемый знак операции");
+        //             continue; 
+        //     }
+
+        //     alert("Результат: " + rezult);
+
+        // } while (confirm("Продолжим?"));
+
+        // 8
+        // for(let i = 0; i < 7; i++){
+        //     if(i == 0){
+        //         alert('Понедельник');
+        //     }
+        //     if(i == 1){
+        //         alert('Вторник');
+        //     }
+        //     if(i == 2){
+        //         alert('Среда');
+        //     }
+        //     if(i == 3){
+        //         alert('Четверг');
+        //     }
+        //     if(i == 4){
+        //         alert('Пятница');
+        //     }
+        //     if(i == 5){
+        //         alert('Пятница');
+        //     }
+        //     if(i == 6){
+        //         alert('Суббота');
+        //     }
+        //     if(i == 7){
+        //         alert('Воскресенье');
+        //     }
+        // }
+
+        // 9 
+        // for(let i = 2; i <= 9; i++){
+
+        //     for(let j = 1; j <= 10; j++){
+        //         document.write(i + " * " + j +" = " + i*j + "<br>");
+        //     }
+        //     document.write("<br>");
+        // }
+
+        //10
+        // alert("Угадай число!");
+        // let min = 0;
+        // let max = 100;
+        // let range;
+        // range = (min + max) / 2;
+        // let choice;
+        // let i = 0;
+
+        // while (i != -1) {
+        //     range = (min + max) / 2;
+        //     choice = prompt(`Ваше число > ${range}, < ${range}, == ${range}?`);
+
+        //     switch (choice) {
+        //         case '>':
+        //             min = range + 1;
+        //             break;
+        //         case '<':
+        //             max = range - 1;
+        //             break;
+        //         case '=':
+        //             alert("Вы угадали!");
+        //             i = -1;
+        //             break;
+        //     }
+        // }
+
+
+    </script>
+</body>
+
+</html>
